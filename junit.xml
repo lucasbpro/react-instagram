@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="16" failures="2" time="12.129">
+  <testsuite name="React Instagram APP" errors="0" failures="2" skipped="0" timestamp="2020-05-26T23:09:56" time="10.67" tests="16">
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Loading&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Loading&gt; component" time="0.048">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Post&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Post&gt; component" time="0.076">
+      <failure>TypeError: Cannot read property &apos;length&apos; of undefined
+    at Post (C:\Users\Lucas\codenation\react-16\src\components\Post\Post.jsx:55:59)
+    at renderWithHooks (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:17482:13)
+    at beginWork (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\Lucas\codenation\react-16\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Lucas\codenation\react-16\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Lucas\codenation\react-16\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Lucas\codenation\react-16\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Lucas\codenation\react-16\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at beginWork$1 (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:23203:7)
+    at performUnitOfWork (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:22157:12)
+    at workLoopSync (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:21188:7)
+    at updateContainer (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:24373:3)
+    at C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:24758:7
+    at unbatchedUpdates (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:24757:5)
+    at Object.render (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:24840:10)
+    at C:\Users\Lucas\codenation\react-16\node_modules\@testing-library\react\dist\pure.js:86:25
+    at batchedUpdates$1 (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at render (C:\Users\Lucas\codenation\react-16\node_modules\@testing-library\react\dist\pure.js:82:26)
+    at Object.&lt;anonymous&gt; (C:\Users\Lucas\codenation\react-16\src\__tests__\submit.test.js:44:31)
+    at Object.asyncJestTest (C:\Users\Lucas\codenation\react-16\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\Lucas\codenation\react-16\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Lucas\codenation\react-16\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\Lucas\codenation\react-16\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Story&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Story&gt; component" time="0.012">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;SuccessMessage&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;SuccessMessage&gt; component" time="0.018">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Topbar&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Topbar&gt; component" time="0.012">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;User&gt; component" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;User&gt; component" time="0.006">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;App&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;App&gt; container" time="0.11">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Posts&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Posts&gt; container" time="0.004">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Stories&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;Stories&gt; container" time="0.003">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserForm&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserForm&gt; container" time="0.016">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserPosts&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserPosts&gt; container" time="0.006">
+    </testcase>
+    <testcase classname="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserProfile&gt; container" name="React Instagram APP Folder Strucutre and data-test-id attributes should should render properly the &lt;UserProfile&gt; container" time="0.008">
+      <failure>TypeError: Cannot read property &apos;avatar&apos; of undefined
+    at UserProfile (C:\Users\Lucas\codenation\react-16\src\containers\UserProfile\UserProfile.jsx:12:29)
+    at renderWithHooks (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:14803:18)
+    at mountIndeterminateComponent (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:17482:13)
+    at beginWork (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\Lucas\codenation\react-16\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Lucas\codenation\react-16\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Lucas\codenation\react-16\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Lucas\codenation\react-16\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Lucas\codenation\react-16\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at beginWork$1 (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:23203:7)
+    at performUnitOfWork (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:22157:12)
+    at workLoopSync (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:21188:7)
+    at updateContainer (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:24373:3)
+    at C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:24758:7
+    at unbatchedUpdates (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:24757:5)
+    at Object.render (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:24840:10)
+    at C:\Users\Lucas\codenation\react-16\node_modules\@testing-library\react\dist\pure.js:86:25
+    at batchedUpdates$1 (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\Lucas\codenation\react-16\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at render (C:\Users\Lucas\codenation\react-16\node_modules\@testing-library\react\dist\pure.js:82:26)
+    at Object.&lt;anonymous&gt; (C:\Users\Lucas\codenation\react-16\src\__tests__\submit.test.js:187:31)
+    at Object.asyncJestTest (C:\Users\Lucas\codenation\react-16\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\Lucas\codenation\react-16\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Lucas\codenation\react-16\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\Lucas\codenation\react-16\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;FeedRoute&gt; component" name="React Instagram APP should should render properly the &lt;FeedRoute&gt; component" time="0.014">
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;NewUserRoute&gt; component" name="React Instagram APP should should render properly the &lt;NewUserRoute&gt; component" time="0.011">
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;ProfileRoute&gt; component" name="React Instagram APP should should render properly the &lt;ProfileRoute&gt; component" time="0.023">
+    </testcase>
+    <testcase classname="React Instagram APP should should render properly the &lt;UsersRoute&gt; component" name="React Instagram APP should should render properly the &lt;UsersRoute&gt; component" time="0.013">
+    </testcase>
+  </testsuite>
+</testsuites>
