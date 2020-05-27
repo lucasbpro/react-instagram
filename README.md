@@ -16,7 +16,7 @@ Start the development server:
 ```shell
 $ npm start
 ```
-This application will start at [http://localhost/:3000](http://localhost/:3000).
+This application will start at [http://localhost:3000](http://localhost/:3000).
 
 ## API documentation 
 
