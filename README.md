@@ -4,7 +4,7 @@ This is an exercise from *Online AceleraDev React* @[Codenation](https://www.cod
 
 The requirements of this project are detailed in https://github.com/codenation-dev/react-instagram. For reference, there is a similar application running [here](https://viniciusvinna-react-instagram.netlify.app/), which source code is found at [https://github.com/codenation-dev/react-instagram](https://github.com/codenation-dev/react-instagram).
 
-## How to run this project:
+## How to run this project
 
 Open this project directory in a terminal and then install all dependencies:
 
@@ -22,6 +22,5 @@ This application will start at [http://localhost:3000](http://localhost/:3000).
 
 This application sends HTTP requests to a REST API which is documented at https://github.com/codenation-dev/react-instagram.
 
-## Requirements:
+## Requirements
 * **[Node v13.8.0](https://nodejs.org/en/)** - or later;
-* **[Create React App](https://github.com/facebook/create-react-app)**
