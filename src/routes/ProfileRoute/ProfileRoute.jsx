@@ -26,7 +26,9 @@ const ProfileRoute = () => {
 
   return (
     <div data-testid="profile-route">
-      { isLoading? <Loading/> : <UserProfile userInfo={user}/>}
+      { user && <UserProfile name={user.name}
+                             avatar={user.avatar}
+                             username={user.username} />}
       { isLoading? <Loading/> : <UserPosts posts={userPosts}/> }
     </div>
   );

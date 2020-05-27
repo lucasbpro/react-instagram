@@ -2,7 +2,7 @@ import React from 'react';
 
 import './UserProfile.scss';
 
-const UserProfile = ({userInfo}) => {
+const UserProfile = ({avatar, name, username}) => {
   return (
 	
     <section data-testid="user-profile" className="profile">
@@ -10,9 +10,9 @@ const UserProfile = ({userInfo}) => {
 		    <div className="profile-data">
 			    <div className="user">
 				    <div className="user__thumb">
-					    <img src={userInfo.avatar} alt={`profile-from-${userInfo.username}`}/>
+					    <img src={avatar} alt={`profile-from-${username}`}/>
 				    </div>
-				    <p className="user__name">{userInfo.name}<span>{`@${userInfo.username}`}</span></p>
+				    <p className="user__name">{name}<span>{`@${username}`}</span></p>
 			    </div>
 		    </div>
 	    </div>

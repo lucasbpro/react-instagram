@@ -27,7 +27,7 @@ const Post = ({ postInfo, userInfo }) => {
             </Link>
 
             <Link className="user__name" to={`/users/${userInfo.username}`}>
-            {userInfo.name}
+              {userInfo.name}
             </Link>
           </div>
           
@@ -49,15 +49,14 @@ const Post = ({ postInfo, userInfo }) => {
       
           <div className="post__status">
             <div className="user">
-              <span>{LABEL_POST_LIKES_1} 
-                <Link to="/">
-                Amigo
-                </Link>        
-                {sprintf(LABEL_POST_LIKES_2, postInfo.likes.length>1 ? "s":"")}
-                <Link to="/">
-                  {`${postInfo.likes.length} ${sprintf(LABEL_POST_LIKES_3, postInfo.likes.length>1 ? "s":"")}`}
-                </Link>
-              </span>
+              {postInfo.likes &&
+                <span>{LABEL_POST_LIKES_1} 
+                  <Link to="/"> Amigo </Link>        
+                  {sprintf(LABEL_POST_LIKES_2, postInfo.likes.length>1 ? "s":"")}
+                  <Link to="/">
+                    {`${postInfo.likes.length} ${sprintf(LABEL_POST_LIKES_3, postInfo.likes.length>1 ? "s":"")}`}
+                  </Link>
+                </span>}
             </div>
           </div>
         </nav>
