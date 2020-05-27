@@ -20,7 +20,7 @@ This application will start at [http://localhost:3000](http://localhost/:3000).
 
 ## API documentation 
 
-This application sends HTTP requests to a REST API which is documented at [https://github.com/codenation-dev/react-instagram].
+This application sends HTTP requests to a REST API which is documented at https://github.com/codenation-dev/react-instagram.
 
 ## Requirements:
 * **[Node v13.8.0](https://nodejs.org/en/)** - or later;
