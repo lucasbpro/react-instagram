@@ -1,6 +1,6 @@
 # React Instadev
 
-This is an exercise from *Online AceleraDev React* @[Codenation](https://www.codenation.dev/). React Instadev is a website developed as a mobile-first *SPA (Single Page Application)* and implemented in React.js by using React Hooks. 
+This is an exercise from *Online AceleraDev React* @[Codenation](https://www.codenation.dev/). React Instadev is a website developed as a mobile-first *SPA (Single Page Application)* and implemented in React.js by using React Hooks and React Router.
 
 The requirements of this project are detailed in https://github.com/codenation-dev/react-instagram.
 
